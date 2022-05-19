@@ -164,7 +164,7 @@
     <externalSharingModel>Private</externalSharingModel>
     <fields>
         <fullName>Address__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Address</label>
         <length>100</length>
@@ -177,7 +177,7 @@
     </fields>
     <fields>
         <fullName>Assessed_Value__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Assessed Value</label>
         <precision>18</precision>
@@ -190,7 +190,7 @@
     </fields>
     <fields>
         <fullName>Baths__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Baths</label>
         <precision>2</precision>
@@ -204,7 +204,7 @@
     </fields>
     <fields>
         <fullName>Beds__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Beds</label>
         <precision>2</precision>
@@ -218,7 +218,7 @@
     </fields>
     <fields>
         <fullName>Broker__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <deleteConstraint>SetNull</deleteConstraint>
         <externalId>false</externalId>
         <label>Broker</label>
@@ -233,7 +233,7 @@
     </fields>
     <fields>
         <fullName>City__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>City</label>
         <length>50</length>
@@ -246,7 +246,7 @@
     </fields>
     <fields>
         <fullName>Date_Agreement__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Date Agreement</label>
         <required>false</required>
@@ -257,7 +257,7 @@
     </fields>
     <fields>
         <fullName>Date_Closed__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Date Closed</label>
         <required>false</required>
@@ -268,7 +268,7 @@
     </fields>
     <fields>
         <fullName>Date_Contracted__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Date Contracted</label>
         <required>false</required>
@@ -279,7 +279,7 @@
     </fields>
     <fields>
         <fullName>Date_Listed__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <defaultValue>TODAY() - 10</defaultValue>
         <externalId>false</externalId>
         <label>Date Listed</label>
@@ -291,7 +291,7 @@
     </fields>
     <fields>
         <fullName>Date_Pre_Market__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Date Pre Market</label>
         <required>false</required>
@@ -302,7 +302,7 @@
     </fields>
     <fields>
         <fullName>Days_On_Market__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <formula>TODAY() - Date_Listed__c</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -317,7 +317,7 @@
     </fields>
     <fields>
         <fullName>Description__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Description</label>
         <length>500</length>
@@ -391,7 +391,7 @@
     </fields>
     <fields>
         <fullName>Location__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <displayLocationInDecimal>true</displayLocationInDecimal>
         <externalId>false</externalId>
         <label>Location</label>
@@ -404,7 +404,7 @@
     </fields>
     <fields>
         <fullName>Picture_IMG__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <formula>if(ISBLANK(Picture__c), &apos;&apos;, IMAGE(Picture__c, &quot;Picture&quot;))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -417,7 +417,7 @@
     </fields>
     <fields>
         <fullName>Picture__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Picture</label>
         <required>false</required>
@@ -428,7 +428,7 @@
     </fields>
     <fields>
         <fullName>Price_Sold__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Price Sold</label>
         <precision>8</precision>
@@ -441,7 +441,7 @@
     </fields>
     <fields>
         <fullName>Price__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Asking Price</label>
         <precision>8</precision>
@@ -454,7 +454,7 @@
     </fields>
     <fields>
         <fullName>Record_Link__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <formula>LEFT($Api.Partner_Server_URL_260, FIND( &apos;/services&apos;, $Api.Partner_Server_URL_260))+ Id</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -467,7 +467,7 @@
     </fields>
     <fields>
         <fullName>State__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>State</label>
         <length>20</length>
@@ -480,7 +480,7 @@
     </fields>
     <fields>
         <fullName>Status__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Status</label>
         <required>false</required>
@@ -521,7 +521,7 @@
     </fields>
     <fields>
         <fullName>Tags__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Tags</label>
         <length>255</length>
@@ -534,7 +534,7 @@
     </fields>
     <fields>
         <fullName>Thumbnail_IMG__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <formula>if(ISBLANK(Thumbnail__c), &quot;&quot;, IMAGE(Thumbnail__c, &quot;Picture&quot;, 200, 200))</formula>
         <formulaTreatBlanksAs>BlankAsZero</formulaTreatBlanksAs>
@@ -547,7 +547,7 @@
     </fields>
     <fields>
         <fullName>Thumbnail__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Thumbnail</label>
         <required>false</required>
@@ -558,7 +558,7 @@
     </fields>
     <fields>
         <fullName>Zip__c</fullName>
-        <complianceGroup>PII</complianceGroup>
+        <complianceGroup>GDPR</complianceGroup>
         <externalId>false</externalId>
         <label>Zip</label>
         <length>10</length>

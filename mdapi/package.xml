@@ -96,5 +96,9 @@
         <members>Settings</members>
         <name>CustomTab</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>PathAssistant</name>
+    </types>
     <version>52.0</version>
 </Package>
